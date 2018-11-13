@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectCourseQuizActivity">
+
+    <include
+        android:id="@+id/first_quiz_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/select_chapter_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_quiz_page_toolbar"
+        android:text="Select lecture..."
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/lecture1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_course_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 1"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 2"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 3"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 4"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture4"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 5"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture5"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 6"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture6"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 7"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture7"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 8"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lecture9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lecture8"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Lecture 9"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

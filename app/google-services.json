@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "48671259049",
+    "firebase_url": "https://cocisselfevaluate.firebaseio.com",
+    "project_id": "cocisselfevaluate",
+    "storage_bucket": "cocisselfevaluate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48671259049:android:7a5b5fc3cb8a250e",
+        "android_client_info": {
+          "package_name": "com.example.whitefalcon.cocisselfevaluate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48671259049-qlh2fon1aqeca19n39p65andm06vdurb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whitefalcon.cocisselfevaluate",
+            "certificate_hash": "a75a26694c61ca3dec93e74d1741274f673feae7"
+          }
+        },
+        {
+          "client_id": "48671259049-aoi226drhelik3te20sldrf26jod6b26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxxxPj85x-WahpiCXgIeot41p1pKafXZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48671259049-aoi226drhelik3te20sldrf26jod6b26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

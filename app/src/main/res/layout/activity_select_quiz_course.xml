@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectCourseQuizActivity">
+  <!--  android:background=""-->
+
+
+    <include
+        android:id="@+id/first_quiz_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/select_course_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_quiz_page_toolbar"
+        android:text="Select course unit..."
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/software_engineering_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_course_label"
+        android:padding="15dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Software Metrics"
+        android:textAllCaps="false"
+        />
+<!--
+    <Button
+        android:id="@+id/information_technology_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button"
+        android:layout_below="@+id/computer_science_button"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Information Technology"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/computer_science_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/software_engineering_button"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:text="Computer Science"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/library_and_information_systems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/information_technology_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        android:text="Library And Information Systems"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" /> -->
+
+</RelativeLayout>
